@@ -1,0 +1,28 @@
+- Users:
+    - Assuming all Users are authenticated
+    - Consist of two Groups: Managers or DeliveryCrew
+    - Anyone not in those two groups are considered Customers
+
+- Libraries Used and Purpose
+    - Django Rest Framework
+        - Proivde Framework and basic tools to build reliable and secure API Endpoints
+        - Check for user authentication and if admin
+        - Provide APIView when visiting endpoint on browser
+        - Endpoint Throttling for authenticated and unauthenticated users 5/min
+    - Djoser
+        - This library provides API endpoints to manage users at admin/ endpoint
+        - URLS provided by Djoser:
+            - /users/
+            - /users/users/me
+            - /users/resend_activation/
+            - /users/set_password/
+            - /users/rest_password/
+            - /users/reset_password_confirm/
+            - /users/set_username/
+            - /users/reset_username/
+            - /users/reset_username_confirm//
+            - /token/login/
+            - /token/logout/
+
+- Endpoint Permissions based on User:
+    - Drop Screen Shot of Table
