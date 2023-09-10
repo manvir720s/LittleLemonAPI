@@ -58,6 +58,12 @@ The LittleLemon API offers various endpoints to interact with the system. Below 
 
 To start using the LittleLemon API, you must have the necessary authentication credentials and permissions. Please refer to the API documentation for detailed information on how to interact with each endpoint and the required authentication headers.
 
+
+## Acknowledgments
+
+The starter code for this project was provided by Meta as part of the Full Stack Certification program
+
+
 ## Contribution
 
 If you wish to contribute to the LittleLemon API project, please follow the contribution guidelines outlined in the project's repository.
