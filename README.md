@@ -1,6 +1,6 @@
-# LittleLemon API
+# Restuarant Menu, Ordering and Management API
 
-The **LittleLemon API** project is a Django-based API designed to manage various aspects of a restaurant's operations, including menus, orders, carts, order delivery, and user management. This API is built with the assumption that all users are authenticated, and it categorizes them into two distinct groups: **Managers** and **Delivery Crew**. Any user not belonging to these groups is considered a **Customer**.
+This API built for the **LittleLemon Restuarant** is a Django-based API designed to manage various aspects of a restaurant's operations, including menus, orders, carts, order delivery, and user management. This API is built with the assumption that all users are authenticated, and it categorizes them into two distinct groups: **Managers** and **Delivery Crew**. Any user not belonging to these groups is considered a **Customer**.
 
 ## Purpose
 
